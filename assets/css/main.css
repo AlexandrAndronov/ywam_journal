@@ -329,7 +329,7 @@ input, select, textarea {
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.25em 0.75em;
 	}
 
 	pre {
@@ -3380,7 +3380,7 @@ input, select, textarea {
 
 		#banner .inner {
 			margin: 0 auto;
-			width: 55em;
+			width: 75em;
 		}
 
 		#banner .logo {
@@ -3549,7 +3549,7 @@ input, select, textarea {
 
 		#wrapper > header .inner {
 			margin: 0 auto;
-			width: 55em;
+			width: 75em;
 		}
 
 		#wrapper > header h2 {
@@ -3673,7 +3673,7 @@ input, select, textarea {
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
-			width: 55em;
+			width: 75em;
 		}
 
 		.wrapper.style2 {
@@ -3788,7 +3788,6 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -3796,7 +3795,6 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
 					width: 100%;
 				}
 
@@ -4012,7 +4010,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		width: 55em;
+		width: 75em;
 	}
 
 		#footer .inner > * {
@@ -4142,3 +4140,7 @@ input, select, textarea {
 		}
 
 	}
+/* main style */
+p {
+	text-align: left  !important;
+}
