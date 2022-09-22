@@ -4144,3 +4144,8 @@ input, select, textarea {
 p {
 	text-align: left  !important;
 }
+@media screen and (min-width: 996px) {
+	div.div_flex {
+		display: flex;
+	}
+}
