@@ -4261,3 +4261,18 @@ p {
     }
 }
 /* end zoom photo */
+
+
+/* video dan */
+@media screen and (max-width: 600px) {
+.video_dan {
+width: 320px !important;
+height: 250px !important;
+		}
+}
+@media screen and (min-width: 600px) {
+	.video_dan {
+		width: 560px !important;
+		height: 315px !important;
+	}
+}
