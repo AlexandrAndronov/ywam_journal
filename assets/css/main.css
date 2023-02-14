@@ -4263,16 +4263,29 @@ p {
 /* end zoom photo */
 
 
-/* video dan */
+/* video dan оптимизация под мобильные устройства */
 @media screen and (max-width: 600px) {
 .video_dan {
 width: 320px !important;
 height: 250px !important;
 		}
 }
+@media screen and (max-width: 360px) {
+	.video_dan {
+		width: 280px !important;
+		height: 250px !important;
+	}
+}
 @media screen and (min-width: 600px) {
 	.video_dan {
 		width: 560px !important;
 		height: 315px !important;
+	}
+}
+
+/* аудиоплеер оптимизация под мобильные устройства */
+@media screen and (max-width: 350px) {
+	audio {
+		width: 280px !important;
 	}
 }
